@@ -1,0 +1,25 @@
+{
+  "name": "big-o-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "jest-pytest": "^0.7.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "py"
+    ],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": [
+      "snap_.*\\.py"
+    ],
+    "testMatch": [
+      "<rootDir>/tests/test_*.py"
+    ]
+  }
+}
